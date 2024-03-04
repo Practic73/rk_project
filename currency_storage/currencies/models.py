@@ -6,9 +6,7 @@ class Currency(models.Model):
         max_length=256,
         verbose_name='Наименование валюты',
     )
-    rate = models.DecimalField(
-        max_digits=999,
-        decimal_places=2,
+    rate = models.FloatField(
         verbose_name='Курс валюты в рублях',
     )
 
