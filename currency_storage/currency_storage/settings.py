@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'currencies.apps.CurrenciesConfig',
     'api.apps.ApiConfig',
     'rest_framework',
+    'rest_framework.authtoken',
     'djoser',
 ]
 
