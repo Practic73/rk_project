@@ -1,6 +1,6 @@
 from http import HTTPStatus
-from rest_framework.test import APIClient, APITestCase
 
+from rest_framework.test import APIClient, APITestCase
 from rest_framework.authtoken.models import Token
 
 

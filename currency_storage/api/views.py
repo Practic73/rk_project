@@ -1,7 +1,8 @@
 from rest_framework import generics
+from rest_framework.pagination import LimitOffsetPagination
+
 from currencies.models import Currency
 from .serializers import CurrencySerializer
-from rest_framework.pagination import LimitOffsetPagination
 
 
 class CurrenciesViewSet(generics.ListAPIView):

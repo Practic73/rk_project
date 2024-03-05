@@ -1,0 +1,1 @@
+Для обновления данных в базе данных необходимо выполнить команду "py manage.py import data" из диерктории rk_project/currency_storage, в которой находится manage.py
